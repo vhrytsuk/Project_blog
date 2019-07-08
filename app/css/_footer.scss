@@ -1,0 +1,60 @@
+.foter-block {
+  background-color: $color1;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.futer-top {
+  height: 45px;
+  .foter-payment {
+    ul {
+      list-style-type: none;
+      display: flex;
+      li {
+        margin-right: 20px;
+        img {
+          height: 45px;
+          width: 70px;
+        }
+      }
+    }
+  }
+}
+.soc {
+  display: flex;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ul {
+    list-style-type: none;
+    display: flex;
+    height: 30px;
+    li {
+      margin-right: 35px;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
+.futer-bootom {
+  background: url("../svg/Svg/Bg_Dark2.svg") no-repeat;
+  background-color: $bg_color6_head_foot;
+  height: 375px;
+  .list-bootom {
+      padding-top: 32px;
+      padding-right: 36px;
+  }
+  .futer-list {
+    ul li {
+      list-style-type: none;
+      padding-top:10px;
+      a {
+        color: $white;
+      }
+    }
+  }
+}
