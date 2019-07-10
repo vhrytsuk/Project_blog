@@ -60,6 +60,9 @@ a {
     font-size: 20px;
     height: 100%;
     padding-left: 40px;
+    a{
+      color:$white;
+    }
     &:hover {
       background-color: $color1;
       color: $bg_color2;
@@ -113,7 +116,6 @@ a {
           margin-bottom: 5px;
         }
         span {
-          font-size: 18px;
           color: black;
         }
       }
