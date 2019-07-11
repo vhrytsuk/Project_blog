@@ -41,7 +41,7 @@
   }
 }
 .futer-bootom {
-  background: url("../svg/Svg/Bg_Dark2.svg") no-repeat;
+  background: url("../svg/Svg/Bg1.svg")  100% no-repeat ,url("../svg/Svg/Bg3-1.svg")  ;
   background-color: $bg_color6_head_foot;
   height: 375px;
   .list-bootom {
@@ -54,6 +54,27 @@
       padding-top:10px;
       a {
         color: $white;
+      }
+    }
+  }
+  .futer-bot{
+    margin-top: 80px;
+    border-top:2px solid $white;
+    .boot{
+      margin-top: 40px;
+    }
+    ul{
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      li{
+        padding-right: 20pt;
+        a{
+          color:$white;
+          border-right:2px solid $white;
+          padding-right: 20px;
+        }
       }
     }
   }
