@@ -55,13 +55,15 @@ a {
   margin: 0;
   li {
     color: $white;
-    border-right: 2px solid $white;
     padding-right: 50px;
     font-size: 20px;
     height: 100%;
     padding-left: 40px;
-    a{
-      color:$white;
+    &:not(:last-child) {
+      border-right: 2px solid $white;
+    }
+    a {
+      color: $white;
     }
     &:hover {
       background-color: $color1;
@@ -119,7 +121,6 @@ a {
           color: black;
         }
       }
-      
     }
   }
 }
